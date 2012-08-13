@@ -2,8 +2,10 @@
 //  AppDelegate.h
 //  JSONUtilityExample
 //
-//  Created by Bracken on 8/1/12.
-//  Copyright (c) 2012 Bracken. All rights reserved.
+//  Created by bracken-dev on 8/1/12.
+//  Copyright (c) 2012 bracken-dev. All rights reserved.
+//
+//  http://github.com/bracken-dev
 //
 
 #import <UIKit/UIKit.h>
