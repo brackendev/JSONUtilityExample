@@ -6,7 +6,7 @@ For projects that require iOS 4 compatibility, JSONUtility serializes/deserializ
 [JSONKit](https://github.com/johnezang/JSONKit.git) submodule is required, so be sure to clone like this:
 
 ````
-$ git clone --recursive https://github.com/bracken-dev/JSONUtility.git
+$ git clone --recursive https://github.com/bracken-dev/JSONUtilityExample.git
 ````
 
 ## How to Use
