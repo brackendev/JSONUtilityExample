@@ -1,0 +1,22 @@
+# OS X
+.DS_Store
+._*
+
+# Xcode
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+xcshareddata
+
+# SVN, CVS
+.svn
+CVS
+
+# AppCode
+.idea
