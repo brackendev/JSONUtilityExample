@@ -5,7 +5,7 @@ JSONUtilityExample
 
 ## Installation and Usage
 
-1. Git clone this repository. [JSONKit](https://github.com/johnezang/JSONKit) submodule is required, so be sure to clone like this:
+1. Git clone this repository. [JSONKit](https://github.com/johnezang/JSONKit) submodule is required, therefore be sure to clone like this:
 
     ```bash
     git clone --recursive https://github.com/brackendev/JSONUtilityExample.git
