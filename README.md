@@ -15,7 +15,9 @@ JSONUtilityExample
 
 ## Acknowledgements
 
-* [John Engelhart](https://github.com/johnezang) for [JSONKit](https://github.com/johnezang/JSONKit).
+This project makes use of the following third-party libraries:
+
+* [JSONKit](https://github.com/johnezang/JSONKit)
 
 ## Author
 
