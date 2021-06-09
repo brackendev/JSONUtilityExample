@@ -2,8 +2,8 @@
 //  ViewController.m
 //  JSONUtilityExample
 //
-//  Created by brackendev.
-//  Copyright (c) 2012 brackendev. All rights reserved.
+//  Created by Bracken Spencer.
+//  Copyright (c) 2012 Bracken Spencer. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -31,11 +31,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     NSString *urlString = @"http://api.geonames.org/findNearbyJSON?lat=43.547636&lng=-106.837603&username=demo";
-    
+
     [self updateTextView:[NSString stringWithFormat:@"REQUEST: %@", urlString]];
-    
+
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]];
         [self performSelectorOnMainThread:@selector(fetchedData:)
@@ -61,7 +61,7 @@
 - (void)fetchedData:(NSData *)responseData
 {
     id json = [JSONUtility JSONObjectWithData:responseData];
-    
+
     [self updateTextView:[NSString stringWithFormat:@"\nRESPONSE: %@", json]];
 }
 
